@@ -13,7 +13,7 @@
 }
 
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -25,7 +25,6 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
-
 }
 .logo_container{
     display: flex;
@@ -643,6 +642,129 @@ a{
     display: flex;
     gap: 1rem;
   }
+  @media (max-width: 1300px) {
+    .hero-section{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .hero-section-left{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-section-right{
+      
+      margin-top: -3%;
+      
+    }
+
+    .hero-section-description{
+      text-align: center;
+    }
+    #btn{
+      position: absolute;
+      margin-top: 75rem;
+    }
+    .faded-text{
+      display: none;
+    }
+    .project-section{
+      margin-top: -2rem;
+    }
+    .header{
+      font-size: 3rem;
+    }
+    .project-container{
+      width: 100vw;
+    }
+    #project1 ,#project2 ,#project3 ,#project4{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .project-container{
+      gap: 50px;
+    }
+    .project-card .project-number{
+      display: none;
+    }
+    .project-card:hover .project-content{
+      transform: scale(0.8);
+    }
+    
+    .project-content{
+      transform: scale(0.7);
+    }
+
+    #project4 .project-content{
+      left: 7%;
+      transform: scale(0.7);
+    }
+    #project4:hover .project-content{
+      transform: scale(0.8);
+    }
+    .project-card{
+      height: 350px;
+    }
+    #project2 .project-content{
+      left: 7%;
+    }
+    #project1 .project-content{
+      top: 3%;
+      left: 7%;
+    }
+    .skill-section{
+      top: -20%;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .skills-left-part{
+      width: 100vw;
+    }
+    .skills-right-part{
+      width: 100%;
+    }
+    .skills-faded-text{
+      display: none;
+    }
+   .contact-section{
+    margin-top: -300px;
+   }
+   .contact-heading{
+    font-size: 3rem;
+    text-align: center;
+   }
+   .contact-subheading{
+    font-size: 2rem;
+    text-align: center;
+   }
+   .form-container{
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+   }
+   .form-field {
+    text-align: center;
+   }
+   .footer-section{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+   }
+   .links-container{
+    padding: 0;
+    margin-top: -30px;
+   }
+   #submit-btn{
+    position: absolute;
+    margin-left: 26%;
+    margin-top: -18px;
+   }
+   }
+
+
 
 
 
