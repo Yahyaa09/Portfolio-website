@@ -759,9 +759,16 @@ a{
    }
    #submit-btn{
     position: absolute;
-    margin-left: 26%;
+    margin-left: 20%;
     margin-top: -18px;
    }
+
+   }
+
+   @media (max-width: 750px){
+    .nav_items{
+      display: none;
+    }
    }
 
 
